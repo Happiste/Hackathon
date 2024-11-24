@@ -2,7 +2,6 @@ import api_client as ap
 from setup_bdd import link_to_bdd
 import json
 
-
 class myFitPlanner:
     def __init__(self):
         self.basal_metabolism = 0
@@ -89,7 +88,7 @@ class myFitPlanner:
         finally:
             cursor.close()
             connection.close()
-            
+    
     def display(self):
         try:
             connection, cursor = link_to_bdd()
@@ -119,4 +118,3 @@ class myFitPlanner:
         finally:
             cursor.close()
             connection.close()
-

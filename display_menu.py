@@ -6,7 +6,7 @@ import do_things as dt
 def display_menu(me):
     print("""\033[1;31m
             Welcome young athlete ! 
-        Are you ready for this journey ?
+        Are you ready foe this journey ?
           FROM BUDDHA TO APPOLON\033[0m
           """)
     print('(c): Calculate my basal metabolism')

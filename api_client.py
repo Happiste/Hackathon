@@ -37,7 +37,3 @@ def get_burnt_kcl(sport_name):
             if i['total_calories']:
                 kcl_burnt = i['total_calories']
                 return kcl_burnt
-
-
-if __name__=='__main__':
-    get_burnt_kcl('skiing')
